@@ -1,6 +1,92 @@
 * { box-sizing: border-box; }
-html, body, #app { height: 100%; margin: 0; }
-body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; color: var(--p-text-color); background: var(--p-surface-50); }
-h1 { font-size: 1.5rem; margin: 0 0 0.5rem; }
-:focus-visible { outline: 3px solid var(--p-primary-color); outline-offset: 2px; }
-.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+html, body, #app {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    color: var(--p-text-color);
+    background: var(--p-surface-50);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem;
+}
+
+:focus-visible {
+    outline: 3px solid var(--p-primary-color);
+    outline-offset: 2px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+/* Shared layout and form classes (setup branch). Views use these instead of writing their own CSS. */
+
+a {
+    color: var(--p-primary-color);
+}
+
+.ss-card {
+    background: var(--p-surface-0);
+    border: 1px solid var(--p-content-border-color);
+    border-radius: 0.9rem;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.ss-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    margin-bottom: 1rem;
+}
+
+.ss-form {
+    max-width: 640px;
+}
+
+.ss-form-grid {
+    display: grid;
+    gap: 0 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.ss-field-full {
+    width: 100%;
+}
+
+.ss-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.ss-muted {
+    color: var(--p-text-muted-color);
+}
+
+.ss-note {
+    color: var(--p-text-muted-color);
+    font-size: 0.85rem;
+}
+
+.ss-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
