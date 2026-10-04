@@ -1,0 +1,16 @@
+{
+  "inventory": {
+    "purchaseList": {
+      "title": "Compras"
+    },
+    "supplierList": {
+      "title": "Proveedores"
+    },
+    "purchaseNew": {
+      "title": "Nueva compra"
+    },
+    "purchaseDetails": {
+      "title": "Detalle de la compra"
+    }
+  }
+}

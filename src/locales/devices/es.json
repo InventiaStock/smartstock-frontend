@@ -1,0 +1,13 @@
+{
+  "devices": {
+    "sensorList": {
+      "title": "Sensores"
+    },
+    "sensorLink": {
+      "title": "Vincular sensor"
+    },
+    "sensorThreshold": {
+      "title": "Umbral mínimo"
+    }
+  }
+}

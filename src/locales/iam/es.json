@@ -1,0 +1,19 @@
+{
+  "iam": {
+    "devSignIn": {
+      "title": "Acceso de desarrollo",
+      "text": "Botones temporales para probar cada menú hasta implementar IAM. Quítalos en el paso de IAM.",
+      "minimarket": "Entrar como Minimarket",
+      "bodega": "Entrar como Bodega"
+    },
+    "signIn": {
+      "title": "Iniciar sesión"
+    },
+    "signUp": {
+      "title": "Crear cuenta"
+    },
+    "forgotPassword": {
+      "title": "Recuperar contraseña"
+    }
+  }
+}

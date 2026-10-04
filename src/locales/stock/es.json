@@ -1,0 +1,23 @@
+{
+  "inventory": {
+    "comparison": {
+      "title": "Comparación"
+    }
+  },
+  "catalog": {
+    "productList": {
+      "title": "Productos"
+    },
+    "productDetails": {
+      "title": "Detalle del producto"
+    },
+    "list": {
+      "name": "Producto",
+      "category": "Categoría",
+      "stock": "Stock registrado",
+      "level": "Nivel de stock",
+      "units": "unidades",
+      "empty": "Todavía no hay productos."
+    }
+  }
+}

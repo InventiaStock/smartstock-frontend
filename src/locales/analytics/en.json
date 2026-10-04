@@ -1,0 +1,10 @@
+{
+  "analytics": {
+    "dashboard": {
+      "title": "Dashboard"
+    },
+    "reports": {
+      "title": "Reports"
+    }
+  }
+}

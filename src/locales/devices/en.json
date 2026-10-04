@@ -1,0 +1,13 @@
+{
+  "devices": {
+    "sensorList": {
+      "title": "Sensors"
+    },
+    "sensorLink": {
+      "title": "Link sensor"
+    },
+    "sensorThreshold": {
+      "title": "Minimum threshold"
+    }
+  }
+}

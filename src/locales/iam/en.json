@@ -1,0 +1,19 @@
+{
+  "iam": {
+    "devSignIn": {
+      "title": "Development access",
+      "text": "Temporary buttons to test each menu until IAM is implemented. Remove them in the IAM step.",
+      "minimarket": "Enter as Minimarket",
+      "bodega": "Enter as Bodega"
+    },
+    "signIn": {
+      "title": "Sign in"
+    },
+    "signUp": {
+      "title": "Create account"
+    },
+    "forgotPassword": {
+      "title": "Recover your password"
+    }
+  }
+}

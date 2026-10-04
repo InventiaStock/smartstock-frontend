@@ -1,0 +1,10 @@
+{
+  "analytics": {
+    "dashboard": {
+      "title": "Panel"
+    },
+    "reports": {
+      "title": "Reportes"
+    }
+  }
+}
