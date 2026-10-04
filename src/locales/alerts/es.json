@@ -1,0 +1,10 @@
+{
+  "alerts": {
+    "alertList": {
+      "title": "Alertas"
+    },
+    "notificationSettings": {
+      "title": "Configuración de notificaciones"
+    }
+  }
+}

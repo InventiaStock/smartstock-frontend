@@ -1,0 +1,13 @@
+{
+  "inventory": {
+    "saleList": {
+      "title": "Ventas"
+    },
+    "saleNew": {
+      "title": "Nueva venta"
+    },
+    "saleDetails": {
+      "title": "Detalle de la venta"
+    }
+  }
+}

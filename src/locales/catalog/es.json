@@ -1,0 +1,10 @@
+{
+  "catalog": {
+    "productNew": {
+      "title": "Nuevo producto"
+    },
+    "productEdit": {
+      "title": "Editar producto"
+    }
+  }
+}
